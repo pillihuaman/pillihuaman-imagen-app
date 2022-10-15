@@ -1,0 +1,5 @@
+db.getCollection("user").createIndex({ "mail": 1 }, {
+    "unique": true,
+    "sparse": true,
+    //partialFilterExpression: { "mail": { $exists: true } }   //Partial indexes offer a more expressive mechanism
+})
