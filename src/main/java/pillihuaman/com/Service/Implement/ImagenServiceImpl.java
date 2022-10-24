@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import pillihuaman.com.Service.ImagenService;
-import pillihuaman.com.imagenProducer.domain.dao.ImagenProducerDAO;
+import pillihuaman.com.basebd.imagenProducer.domain.dao.ImagenProducerDAO;
 
 @Component
 public class ImagenServiceImpl implements ImagenService {

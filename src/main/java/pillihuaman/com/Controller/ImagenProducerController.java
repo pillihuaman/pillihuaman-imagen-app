@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import pillihuaman.com.Help.Constants;
 import pillihuaman.com.Service.ImagenService;
-import pillihuaman.com.model.response.RespBase;
+import pillihuaman.com.base.response.RespBase;
 
 @RestController
 @Tag(name = "Imagen", description = "")

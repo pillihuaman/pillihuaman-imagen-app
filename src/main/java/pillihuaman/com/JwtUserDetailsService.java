@@ -9,19 +9,20 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
-import pillihuaman.com.model.response.RespBase;
-import pillihuaman.com.model.response.RespUser;
-import pillihuaman.com.service.UserService;
+import pillihuaman.com.base.response.RespBase;
+import pillihuaman.com.base.response.RespUser;
+import pillihuaman.com.basebd.userGeneral.domain.dao.UserGeneralRepositoy;
+
 
 @Component
 public class JwtUserDetailsService implements UserDetailsService {
 
 	@Autowired
-	private UserService userService;
+	private UserGeneralRepositoy userGeneralRepositoy;
 
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		RespBase<RespUser> respo = userService.getUserByMail(username);
+		RespBase<RespUser> respo = userGeneralRepositoy.getUserByMail(username);
 
 		if (respo !=null) {
 			if (respo.getPayload().getMail().equals(username)) {
