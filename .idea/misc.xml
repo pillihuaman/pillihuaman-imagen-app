@@ -5,8 +5,36 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../pillihuaman.com.pe.support/pom.xml" />
+        <option value="$PROJECT_DIR$/../pillihuaman-com-pe-security-app/pom.xml" />
+        <option value="$PROJECT_DIR$/../pillihuaman.com.base.lib/pom.xml" />
+        <option value="$PROJECT_DIR$/../pillihuaman-com-pe-basebd-lib/pom.xml" />
+        <option value="$USER_HOME$/Downloads/arquitectura-hexagonal-ejemplo-practico/pom.xml" />
+        <option value="$USER_HOME$/Downloads/Cinema.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/cinema.series.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/pom.xml" />
+        <option value="$USER_HOME$/Downloads/cinema.actorss.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/cinema.serie.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/cinema.pelicula.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/cinema.actor.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/spring-boot-mongodb-master/cinema.masVisto.com.pe/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Downloads/cinema.actorss.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/cinema.series.com.pe/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/adapter/addressvalidation/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/adapter/persistence/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/application/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/common/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/config/pom.xml" />
+        <option value="$USER_HOME$/Downloads/hexagonal-example-master/hexagonal-example-master/pom.xml" />
+        <option value="$USER_HOME$/Downloads/spring-boot-mongodb-master/cinema.masVisto.com.pe/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>

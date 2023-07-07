@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pillihuaman-basebd" />
+        <module name="pillihuaman-base" />
+        <module name="pillihuaman.support.app" />
+        <module name="pillihuaman.security.app" />
+        <module name="pillihuaman.imagen.app" />
+      </profile>
+      <profile name="Annotation profile for cinema" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.2.Final/mapstruct-processor-1.5.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.2.Final/mapstruct-1.5.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="cinema.pelicula" />
+        <module name="cinema.serie" />
+        <module name="cinema.actor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="addressvalidation" target="16" />
+      <module name="application" target="16" />
+      <module name="cinema" target="11" />
+      <module name="cinema.continuar" target="11" />
+      <module name="cinema.masVitos.com.pe" target="1.8" />
+      <module name="cinema.novedades" target="11" />
+      <module name="cinema.novedades (1)" target="11" />
+      <module name="cinema.novedades (2)" target="11" />
+      <module name="cinema.serie (1)" target="11" />
+      <module name="cinema.serie (2)" target="11" />
+      <module name="cinema.series" target="11" />
+      <module name="cinema.vista" target="11" />
+      <module name="common" target="16" />
+      <module name="config" target="16" />
+      <module name="ecodesa" target="11" />
+      <module name="hexagonaldemo" target="16" />
+      <module name="persistence" target="16" />
+      <module name="series" target="17" />
+      <module name="web" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="-Amapstruct.defaultInjectionStrategy=constructor -Amapstruct.defaultComponentModel=spring" />
+      <module name="cinema" options="-parameters" />
+      <module name="cinema.actor" options="-parameters" />
+      <module name="cinema.continuar" options="-parameters" />
+      <module name="cinema.masVitos.com.pe" options="-parameters" />
+      <module name="cinema.novedades" options="-parameters" />
+      <module name="cinema.novedades (1)" options="-parameters" />
+      <module name="cinema.novedades (2)" options="-parameters" />
+      <module name="cinema.pelicula" options="-parameters" />
+      <module name="cinema.serie" options="-parameters" />
+      <module name="cinema.serie (1)" options="-parameters" />
+      <module name="cinema.serie (2)" options="-parameters" />
+      <module name="cinema.series" options="-parameters" />
+      <module name="cinema.vista" options="-parameters" />
+      <module name="ecodesa" options="-parameters" />
+      <module name="persistence" options="-Amapstruct.defaultInjectionStrategy=constructor -Amapstruct.defaultComponentModel=spring" />
+      <module name="pillihuaman-base" options="-parameters" />
+      <module name="pillihuaman-basebd" options="-parameters" />
+      <module name="pillihuaman.imagen.app" options="-parameters" />
+      <module name="pillihuaman.security.app" options="-parameters" />
+      <module name="pillihuaman.support.app" options="-parameters" />
+      <module name="series" options="-parameters" />
+      <module name="web" options="-Amapstruct.defaultInjectionStrategy=constructor -Amapstruct.defaultComponentModel=spring" />
+    </option>
+  </component>
+</project>
